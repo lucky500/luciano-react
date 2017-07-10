@@ -6,6 +6,15 @@
   background-color: red;
 }
 
+.right-col {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.button {
+  border-radius: none;
+}
+
 @media (min-width: 768px) {
   .row, .left-col, .right-col {
     height: 100vh;
