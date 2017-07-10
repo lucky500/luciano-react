@@ -5,3 +5,9 @@
 .left-col {
   background-color: red;
 }
+
+@media (min-width: 768px) {
+  .row, .left-col, .right-col {
+    height: 100vh;
+  }
+}
