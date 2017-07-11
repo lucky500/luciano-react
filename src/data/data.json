@@ -21,11 +21,12 @@
 	],
 	"projectLinks": [
 		{
-			"title": "project1",
+			"title": "ToDo List with React.js",
 			"eventKey": 1,
-			"description": "Lorem",
-			"urlCode": "https//www.",
-			"urlDemo": "http//wwww."
+			"description": "Fully functional CRUD ToDo App with React.js on the Front End and MongoDB, and Express on the Back End",
+			"image": "http://i.imgur.com/cWUNj9Q.png",
+			"urlCode": "https://github.com/lucky500/todoWithReactJS",
+			"urlDemo": ""
 		},
 		{
 			"title": "project2",

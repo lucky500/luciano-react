@@ -10,13 +10,15 @@ class Projects extends Component {
 		};
 	}
 
+
 	renderList(projectLinks){
 		let self = this;
 		return projectLinks.map(function(link) {
-			return <Panel header={link.title} eventKey={link.title} key={link.title}>
-	      			<p>{link.description}</p>
-	      			<a href="#">{link.urlDemo}</a><br />
-	      			<a href="#">{link.urlCode}</a>
+			return <Panel header={link.title} eventKey={link.eventKey} key={link.title}>
+							<p>{link.description}</p>
+	      			<img src={link.image} className="img-thumbnail"/>
+	      			<a href={link.urlDemo}>Demo</a><br />
+	      			<a href={link.urlCode}>Code</a>
 	    			</Panel>
 		});
 	}
