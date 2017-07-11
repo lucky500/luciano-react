@@ -21,7 +21,7 @@
 	],
 	"projectLinks": [
 		{
-			"title": "ToDo List with React.js",
+			"title": "ToDo List with React.js (ReactJS, MongoDB, Express)",
 			"eventKey": 1,
 			"description": "Fully functional CRUD ToDo App with React.js on the Front End and MongoDB, and Express on the Back End",
 			"image": "http://i.imgur.com/cWUNj9Q.png",
@@ -29,32 +29,52 @@
 			"urlDemo": ""
 		},
 		{
-			"title": "project2",
+			"title": "BookFinder (React, React-Bootstrap, Axios, Heroku)",
 			"eventKey": 2,
-			"description": "Lorem",
-			"urlCode": "https//www.",
-			"urlDemo": "http//wwww."
+			"description": "Simple app to find books. Using React, React-Bootstrap, Axios, Google Books API, and deployed to Heroku",
+			"image": "http://i.imgur.com/WQdo6Ie.png",
+			"urlCode": "https://github.com/lucky500/bookFinder",
+			"urlDemo": "https://github.com/lucky500/bookFinder"
 		},
 		{
-			"title": "project3",
+			"title": "Jule's Pizza Place (Angular, Angular Material, Firebase)",
 			"eventKey": 3,
-			"description": "Lorem",
-			"urlCode": "https//www.",
-			"urlDemo": "http//wwww."
+			"description": "Built with Angular and Angular Material in the front end, and using Firebase in the backend. Didn't work much on the design, since I was just experimenting with Firebase, so I am working on the re-design of this one.",
+			"image": "http://i.imgur.com/Yg054S5.png",
+			"urlCode": "https://github.com/lucky500/julespizza",
+			"urlDemo": "https://lucky500.github.io/julespizza/"
 		},
 		{
-			"title": "project4",
+			"title": "Todo App with Vue.js (HTML, CSS, VueJS)",
 			"eventKey": 4,
-			"description": "Lorem",
-			"urlCode": "https//www.",
-			"urlDemo": "http//wwww."
+			"description": "Simple Todo application using Vue.js",
+			"image": "http://i.imgur.com/XVjpADb.png",
+			"urlCode": "https://github.com/lucky500/todoWithVueJS",
+			"urlDemo": "https://lucky500.github.io/todoWithVueJS/"
 		},
 		{
-			"title": "project5",
+			"title": "The Vinyl Vault (HTML, CSS, JavScript)",
 			"eventKey": 5,
-			"description": "Lorem",
-			"urlCode": "https//www.",
-			"urlDemo": "http//wwww."
+			"description": "Simple JavaScript cart application.",
+			"image": "http://i.imgur.com/yrtxUrV.png",
+			"urlCode": "https://github.com/lucky500/vinyl-vault",
+			"urlDemo": "http://lucky500.github.io/vinyl-vault/"
+		},
+		{
+			"title": "Mavrck ROI Calculator (HTML, CSS, Angular Material)",
+			"eventKey": 6,
+			"description": "Group project at startup institute, ROI calculator for our partner company, I was mainly responsible for the UI, HTML, CSS and little Javascript",
+			"image": "http://i.imgur.com/3SMjPGh.png",
+			"urlCode": "https://github.com/lucky500/ROICalculator",
+			"urlDemo": "https://lucky500.github.io/ROICalculator/public/"
+		},
+		{
+			"title": "Portfolio (ReactJS, React-Bootstrap, Heroku)",
+			"eventKey": 7,
+			"description": "This portfolio site, that you are currently viewing, buit with ReactJS and React-Bootstrap",
+			"image": "http://i.imgur.com/fUDPPhD.png",
+			"urlCode": "https://github.com/lucky500/luciano-react",
+			"urlDemo": ""
 		}
 	]
 }

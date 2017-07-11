@@ -16,9 +16,9 @@ class Projects extends Component {
 		return projectLinks.map(function(link) {
 			return <Panel header={link.title} eventKey={link.eventKey} key={link.title}>
 							<p>{link.description}</p>
-	      			<img src={link.image} className="img-thumbnail"/>
-	      			<a href={link.urlDemo}>Demo</a><br />
-	      			<a href={link.urlCode}>Code</a>
+	      			<img src={link.image} className="img-thumbnail"/><br />
+	      			<a href={link.urlDemo}>Demo </a>
+	      			<a href={link.urlCode}>Code </a>
 	    			</Panel>
 		});
 	}
