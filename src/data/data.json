@@ -1,0 +1,59 @@
+{
+	"name": "Luciano Oliveira",
+	"title": "Front End Developer",
+	"socialLinks": [
+		{
+			"title": "Resume",
+			"url": "www.lucianooliveira.com/lucianooliveira.pdf"
+		},
+		{
+			"title": "Twitter",
+			"url": "https://twitter.com/luciano_wor"
+		},
+		{
+			"title": "LinkedIn",
+			"url": "https://www.linkedin.com/in/luciano-oliveira-484a8017/"
+		},
+		{
+			"title": "GitHub",
+			"url": "https://github.com/lucky500"
+		}
+	],
+	"projectLinks": [
+		{
+			"title": "project1",
+			"eventKey": 1,
+			"description": "Lorem",
+			"urlCode": "https//www.",
+			"urlDemo": "http//wwww."
+		},
+		{
+			"title": "project2",
+			"eventKey": 2,
+			"description": "Lorem",
+			"urlCode": "https//www.",
+			"urlDemo": "http//wwww."
+		},
+		{
+			"title": "project3",
+			"eventKey": 3,
+			"description": "Lorem",
+			"urlCode": "https//www.",
+			"urlDemo": "http//wwww."
+		},
+		{
+			"title": "project4",
+			"eventKey": 4,
+			"description": "Lorem",
+			"urlCode": "https//www.",
+			"urlDemo": "http//wwww."
+		},
+		{
+			"title": "project5",
+			"eventKey": 5,
+			"description": "Lorem",
+			"urlCode": "https//www.",
+			"urlDemo": "http//wwww."
+		}
+	]
+}
