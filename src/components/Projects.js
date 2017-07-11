@@ -26,6 +26,7 @@ class Projects extends Component {
 	render(){
 		return(
 			<Col xs={12} md={6} lg={6} className="right-col">
+				<h3>Projects</h3>
 				<Accordion>
 					{this.renderList(Data.projectLinks)}
   			</Accordion>

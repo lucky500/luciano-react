@@ -75,6 +75,14 @@
 			"image": "http://i.imgur.com/fUDPPhD.png",
 			"urlCode": "https://github.com/lucky500/luciano-react",
 			"urlDemo": ""
+		},
+		{
+			"title": "Student Directory (HTML, CSS, Angular 1.5)",
+			"eventKey": 8,
+			"description": "Simple app built with Angular 1.5. Find students by name, company or Job Title, and also able to open detail view. working on cleaning up UI and built upon the app.",
+			"image": "http://i.imgur.com/zAa7fiD.png",
+			"urlCode": "https://github.com/lucky500/studentDirectory",
+			"urlDemo": "https://lucky500.github.io/studentDirectory/#/list"
 		}
 	]
 }

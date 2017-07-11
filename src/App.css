@@ -1,9 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Nixie+One|Permanent+Marker|Syncopate');
+
 .App {
   text-align: center;
 }
 
+
 .left-col {
-  background-color: red;
+  background: url('./img/winterland1.jpg') no-repeat center center fixed;
+  background: #3b3598;
+  background-size: cover;
+}
+
+.left-col h3 {
+  font-family: 'Permanent Marker', cursive;
+  color: #ccc;
+  font-size: 5em;
+}
+
+.left-col span {
+  color: #ccc;
+  font-size: 2em;
+  padding-right: 15px;
+}
+
+.left-col h4 {
+  color: #ccc;
+  font-family: 'Syncopate', sans-serif;
+  font-size: 1.5em;
+}
+
+
+
+.left-col div {
+  margin-top: 150px;
 }
 
 .right-col {
@@ -19,5 +48,11 @@
 @media (min-width: 768px) {
   .row, .left-col, .right-col {
     height: 100vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .left-col {
+    height: 500px;
   }
 }
