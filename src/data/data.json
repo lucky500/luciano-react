@@ -29,8 +29,16 @@
 			"urlDemo": ""
 		},
 		{
-			"title": "BookFinder (React, React-Bootstrap, Axios, Heroku)",
+			"title": "IMDB Clone (Ruby on Rails, Bootstrap, PostGres, and Devise for Auth)",
 			"eventKey": 2,
+			"description": "Rails CRUD application, it uses Devise for authentication, Faker for seeding, and paperclip for images. It uses a jQuery plugin called jquery.raty to transform a number into stars rating. It uses PostGreSQL for DB",
+			"image": "https://i.imgur.com/5dqMWwa.png",
+			"urlCode": "https://github.com/lucky500/imdb_rails",
+			"urlDemo": "https://imdb-rails-app.herokuapp.com/"
+		},
+		{
+			"title": "BookFinder (React, React-Bootstrap, Axios, Heroku)",
+			"eventKey": 3,
 			"description": "Simple app to find books. Using React, React-Bootstrap, Axios, Google Books API, and deployed to Heroku",
 			"image": "http://i.imgur.com/WQdo6Ie.png",
 			"urlCode": "https://github.com/lucky500/bookFinder",
@@ -38,19 +46,11 @@
 		},
 		{
 			"title": "Jule's Pizza Place (Angular, Angular Material, Firebase)",
-			"eventKey": 3,
+			"eventKey": 4,
 			"description": "Built with Angular and Angular Material in the front end, and using Firebase in the backend. Didn't work much on the design, since I was just experimenting with Firebase, so I am working on the re-design of this one.",
 			"image": "http://i.imgur.com/Yg054S5.png",
 			"urlCode": "https://github.com/lucky500/julespizza",
 			"urlDemo": "https://lucky500.github.io/julespizza/"
-		},
-		{
-			"title": "Todo App with Vue.js (HTML, CSS, VueJS)",
-			"eventKey": 4,
-			"description": "Simple Todo application using Vue.js",
-			"image": "http://i.imgur.com/XVjpADb.png",
-			"urlCode": "https://github.com/lucky500/todoWithVueJS",
-			"urlDemo": "https://lucky500.github.io/todoWithVueJS/"
 		},
 		{
 			"title": "The Vinyl Vault (HTML, CSS, JavScript)",
@@ -69,16 +69,8 @@
 			"urlDemo": "https://lucky500.github.io/ROICalculator/public/"
 		},
 		{
-			"title": "Portfolio (ReactJS, React-Bootstrap, Heroku)",
-			"eventKey": 7,
-			"description": "This portfolio site, that you are currently viewing, buit with ReactJS and React-Bootstrap",
-			"image": "http://i.imgur.com/uYnVZaJ.png",
-			"urlCode": "https://github.com/lucky500/luciano-react",
-			"urlDemo": ""
-		},
-		{
 			"title": "Student Directory (HTML, CSS, Angular 1.5)",
-			"eventKey": 8,
+			"eventKey": 7,
 			"description": "Simple app built with Angular 1.5. Find students by name, company or Job Title, and also able to open detail view. working on cleaning up UI and built upon the app.",
 			"image": "http://i.imgur.com/GF0is9z.png",
 			"urlCode": "https://github.com/lucky500/studentDirectory",
