@@ -1,6 +1,5 @@
 import React from 'react';
 import {Col} from 'react-bootstrap';
-import Data from '../data/data.json';
 import {Icon} from 'react-fa'
 
 export default props => (

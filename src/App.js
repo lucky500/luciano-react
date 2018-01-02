@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Grid, Row} from 'react-bootstrap';
+import {Row} from 'react-bootstrap';
 
 import Contact from './components/Contact';
 import Projects from './components/Projects';

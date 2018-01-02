@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Col, Accordion, Panel, Well } from 'react-bootstrap';
+import {Col, Accordion, Panel } from 'react-bootstrap';
 import Data from '../data/data.json';
 
 class Projects extends Component {
@@ -12,12 +12,12 @@ class Projects extends Component {
 
 
 	renderList(projectLinks){
-		let self = this;
+		//let self = this;
 		return projectLinks.map(function(link) {
 			return <Panel header={link.title} eventKey={link.eventKey} key={link.title}>
 							<p>{link.description}</p>
-	      			<img src={link.image} className="img-thumbnail"/><br />
-	      			<a href={link.urlDemo}>Demo </a>
+	      			<img src={link.image} className="img-thumbnail" alt="project thumbnail"/><br />
+							  { link.urlDemo ? <a href={link.urlDemo}>Demo </a> : null }
 	      			<a href={link.urlCode}>Code </a>
 	    			</Panel>
 		});

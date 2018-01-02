@@ -42,7 +42,7 @@
 			"description": "Simple app to find books. Using React, React-Bootstrap, Axios, Google Books API, and deployed to Heroku",
 			"image": "http://i.imgur.com/WQdo6Ie.png",
 			"urlCode": "https://github.com/lucky500/bookFinder",
-			"urlDemo": "https://github.com/lucky500/bookFinder"
+			"urlDemo": ""
 		},
 		{
 			"title": "Jule's Pizza Place (Angular, Angular Material, Firebase)",
@@ -66,7 +66,7 @@
 			"description": "Group project at startup institute, ROI calculator for our partner company, I was mainly responsible for the UI, HTML, CSS and little Javascript",
 			"image": "http://i.imgur.com/3SMjPGh.png",
 			"urlCode": "https://github.com/lucky500/ROICalculator",
-			"urlDemo": "https://lucky500.github.io/ROICalculator/public/"
+			"urlDemo": ""
 		},
 		{
 			"title": "Student Directory (HTML, CSS, Angular 1.5)",
