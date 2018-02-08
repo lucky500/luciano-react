@@ -1,6 +1,6 @@
 import React from 'react';
-import {Col} from 'react-bootstrap';
-import {Icon} from 'react-fa'
+import { Col } from 'reactstrap';
+import { Icon } from 'react-fa'
 
 export default props => (
 	<Col xs={12} md={6} lg={6} className="left-col">
