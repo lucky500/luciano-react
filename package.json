@@ -1,11 +1,13 @@
 {
   "name": "luciano-react",
   "version": "0.1.0",
+  "homepage" : "http://myname.github.io/myapp",
   "private": true,
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-fa": "^4.2.0",
+    "react-images": "^0.5.17",
     "reactstrap": "^5.0.0-alpha.4"
   },
   "devDependencies": {
