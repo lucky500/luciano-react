@@ -1,7 +1,7 @@
 {
   "name": "luciano-react",
   "version": "0.1.0",
-  "homepage" : "http://myname.github.io/myapp",
+  "homepage" : "http://lucky500.github.io/luciano-react",
   "private": true,
   "dependencies": {
     "react": "^15.6.1",
