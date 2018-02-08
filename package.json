@@ -1,7 +1,6 @@
 {
   "name": "luciano-react",
   "version": "0.1.0",
-  "homepage" : "http://lucky500.github.io/luciano-react",
   "private": true,
   "dependencies": {
     "aphrodite": "^1.2.5",
