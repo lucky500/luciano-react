@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Col, Collapse, ListGroup, ListGroupItem } from 'reactstrap';
+import Lightbox from 'react-images';
 import Data from '../data/data.json';
 
 class Projects extends Component {
@@ -16,17 +17,6 @@ class Projects extends Component {
 		this.setState({ collapse: !this.state.collapse });
 	}
 
-	// render(){
-	// 	return(
-	// 		<ListGroup>
- //        <ListGroupItem>Cras justo odio</ListGroupItem>
- //        <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
- //        <ListGroupItem>Morbi leo risus</ListGroupItem>
- //        <ListGroupItem>Porta ac consectetur ac</ListGroupItem>
- //        <ListGroupItem>Vestibulum at eros</ListGroupItem>
- //      </ListGroup>
-	// 	)
-	// }
 
 	renderList(projectLinks){
 		return projectLinks.map(function(link) {
