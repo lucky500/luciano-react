@@ -78,7 +78,7 @@ class Example extends Component {
               <CardText>
                 { obj.tech.map(icon => {
                  return <span>
-                    <i className={icon}></i>
+                    <i className={`${icon} ${css(classes.iconImage)}`}></i>
                   </span>
                 })}
                  
@@ -185,6 +185,11 @@ const classes = StyleSheet.create({
   },
   cardTitle: {
     fontSize: '.9rem'
+  },
+  iconImage: {
+    fontSize: '1rem',
+    color:  '#ff4757',
+    marginRight: 5
   }
 });
 
