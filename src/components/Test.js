@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 import { Col, Collapse, Button, CardBody, Card, ListGroup, ListGroupItem } from 'reactstrap';
+import { css, StyleSheet } from 'aphrodite/no-important';
 import Lightbox from 'react-images';
-import Data from '../data/data1.json';
 
 
 class Example extends Component {
   constructor(props) {
     super(props);
     this.state = { 
-      Data: Data,
       lightboxIsOpen: false,
       currentImage: 0
     };
 
-    this.closeLightBox = this.closeLightbox.bind(this);
+    this.closeLightbox = this.closeLightbox.bind(this);
     this.gotoNext = this.gotoNext.bind(this);
     this.gotoPrevious = this.gotoPrevious.bind(this);
     this.gotoImage = this.gotoImage.bind(this);
@@ -93,11 +92,68 @@ class Example extends Component {
           currentImage={this.state.currentImage}
           images={this.props.images}
           isOpen={this.state.lightboxIsOpen}
+          onClickImage={this.handleClickImage}
+          onClickNext={this.gotoNext}
+          onClickPrev={this.gotoPrevious}
           onClose={this.closeLightbox}
         />
       </Col>
     );
   }
 }
+
+const gutter = {
+  small: 2,
+  large: 4,
+};
+
+const classes = StyleSheet.create({
+  gallery: {
+    marginRight: -gutter.small,
+    overflow: 'hidden',
+
+    '@media (min-width: 500px)': {
+      marginRight: -gutter.large,
+    },
+  },
+
+  //anchor
+  thumbnail: {
+    boxSizing: 'border-box',
+    display: 'block',
+    float: 'left',
+    lineHeight: 0,
+    paddingRight: gutter.small,
+    paddingBottom: gutter.small,
+    overflow: 'hidden',
+
+    '@media (min-width: 500px)': {
+      paddingRight: gutter.large,
+      paddingBottom: gutter.large,
+    },
+  },
+
+  //orientation
+  landscape: {
+    width: '30%',
+  },
+  square: {
+    paddingBottom: 0,
+    width: '40%',
+
+    '@media (min-width: 500px)': {
+      paddingBottom: 0,
+    },
+  },
+
+  //actual <img />
+  source: {
+    border: 0,
+    display: 'block',
+    height: 'auto',
+    maxWidth: '100%',
+    width: 'auto',
+  },
+});
 
 export default Example;

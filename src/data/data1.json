@@ -25,11 +25,7 @@
 			"eventKey": 1,
             "description": "Fully functional CRUD ToDo App with React.js on the Front End and MongoDB, and Express on the Back End",
             "src": "http://i.imgur.com/cWUNj9Q.png",
-			"image": [
-                {
-                    "src": "http://i.imgur.com/cWUNj9Q.png"
-                }
-            ],
+            "thumbnail": "http://i.imgur.com/cWUNj9Q.png",
 			"urlCode": "https://github.com/lucky500/todoWithReactJS",
 			"urlDemo": ""
 		},
@@ -38,11 +34,7 @@
 			"eventKey": 2,
             "description": "Rails CRUD application, it uses Devise for authentication, Faker for seeding, and paperclip for images. It uses a jQuery plugin called jquery.raty to transform a number into stars rating. It uses PostGreSQL for DB",
             "src": "https://i.imgur.com/5dqMWwa.png",
-            "image": [
-                {
-                    "src": "https://i.imgur.com/5dqMWwa.png"
-                }
-            ],
+            "thumbnail": "https://i.imgur.com/5dqMWwa.png",
 			"urlCode": "https://github.com/lucky500/imdb_rails",
 			"urlDemo": "https://imdb-rails-app.herokuapp.com/"
 		},
@@ -51,11 +43,7 @@
 			"eventKey": 3,
             "description": "Simple app to find books. Using React, React-Bootstrap, Axios, Google Books API, and deployed to Heroku",
             "src": "http://i.imgur.com/WQdo6Ie.png",
-            "image": [
-                {
-                    "src": "http://i.imgur.com/WQdo6Ie.png"
-                }
-            ],
+            "thumbnail": "http://i.imgur.com/WQdo6Ie.png",
 			"urlCode": "https://github.com/lucky500/bookFinder",
 			"urlDemo": ""
 		},
@@ -64,11 +52,7 @@
 			"eventKey": 4,
             "description": "Built with Angular and Angular Material in the front end, and using Firebase in the backend. Didn't work much on the design, since I was just experimenting with Firebase, so I am working on the re-design of this one.",
             "src": "http://i.imgur.com/Yg054S5.png",
-            "image": [
-                {
-                    "src": "http://i.imgur.com/Yg054S5.png"
-                }
-            ],
+            "thumbnail": "http://i.imgur.com/Yg054S5.png",
 			"urlCode": "https://github.com/lucky500/julespizza",
 			"urlDemo": "https://lucky500.github.io/julespizza/"
 		},
@@ -77,11 +61,7 @@
 			"eventKey": 5,
             "description": "Simple JavaScript cart application.",
             "src": "http://i.imgur.com/yrtxUrV.png",
-            "image": [
-                {
-                    "src": "http://i.imgur.com/yrtxUrV.png"
-                }
-            ],
+            "thumbnail": "http://i.imgur.com/yrtxUrV.png",
 			"urlCode": "https://github.com/lucky500/vinyl-vault",
 			"urlDemo": "http://lucky500.github.io/vinyl-vault/"
 		},
@@ -90,11 +70,7 @@
 			"eventKey": 6,
             "description": "Group project at startup institute, ROI calculator for our partner company, I was mainly responsible for the UI, HTML, CSS and little Javascript",
             "src": "http://i.imgur.com/3SMjPGh.png",
-            "image": [
-                {
-                    "src": "http://i.imgur.com/3SMjPGh.png"
-                }
-            ],
+            "thumbnail": "http://i.imgur.com/3SMjPGh.png",
 			"urlCode": "https://github.com/lucky500/ROICalculator",
 			"urlDemo": ""
 		},
@@ -103,11 +79,7 @@
 			"eventKey": 7,
             "description": "Simple app built with Angular 1.5. Find students by name, company or Job Title, and also able to open detail view. working on cleaning up UI and built upon the app.",
             "src": "http://i.imgur.com/GF0is9z.png",
-            "image": [
-                {
-                    "src": "http://i.imgur.com/GF0is9z.png"
-                }
-            ],
+            "thumbnail": "http://i.imgur.com/GF0is9z.png",
 			"urlCode": "https://github.com/lucky500/studentDirectory",
 			"urlDemo": "https://lucky500.github.io/studentDirectory/#/list"
 		}
