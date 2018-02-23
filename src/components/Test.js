@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col, Collapse, Button, CardBody, Card, ListGroup, ListGroupItem } from 'reactstrap';
+import { Card, CardImg, CardTitle, CardSubtitle, CardText, Col, CardBody } from 'reactstrap';
 import { css, StyleSheet } from 'aphrodite/no-important';
 import Lightbox from 'react-images';
 
@@ -63,19 +63,34 @@ class Example extends Component {
     const { images } = this.props;
     if(!images) return;
 
-    const gallery = images.filter(i => i.image).map((obj, i) => {
+    const gallery = images.filter(i => i.src).map((obj, i) => {
       return (
         <a
           href={obj.src}
+          className={css(classes.thumbnail, classes[obj.orientation])}
           key={i}
           onClick={(e) => this.openLightbox(i, e)}
         >
-          <img src={i} />
+          <Card className={css(classes.card)}>
+            <CardBody className={css(classes.cardBody)}>
+              <CardTitle className={css(classes.cardTitle)}>{obj.title}</CardTitle>
+              <CardText>{obj.description}</CardText>
+              <CardText>
+                { obj.tech.map(icon => {
+                 return <span>
+                    <i className={icon}></i>
+                  </span>
+                })}
+                 
+              </CardText>
+            </CardBody>
+            <CardImg src={obj.thumbnail} className={css(classes.source)} />
+          </Card>
         </a>
       )
     });
     return (
-      <div>
+      <div className={css(classes.gallery)}>
         {gallery}
       </div>
     )
@@ -121,8 +136,7 @@ const classes = StyleSheet.create({
   thumbnail: {
     boxSizing: 'border-box',
     display: 'block',
-    float: 'left',
-    lineHeight: 0,
+    color: 'black',
     paddingRight: gutter.small,
     paddingBottom: gutter.small,
     overflow: 'hidden',
@@ -150,10 +164,28 @@ const classes = StyleSheet.create({
   source: {
     border: 0,
     display: 'block',
+    marginTop: 10,
+    marginRight: 10,
     height: 'auto',
-    maxWidth: '100%',
+    maxWidth: '100px',
+    maxHeight: '100px',
     width: 'auto',
   },
+
+  //bootstrap overrides
+  card: {
+    display: 'flex',
+    flexDirection: 'row',
+  },
+  cardBody: {
+    padding: '.5rem',
+    fontSize: '.9rem',
+    textAlign: 'left',
+    flexGrow: 2,
+  },
+  cardTitle: {
+    fontSize: '.9rem'
+  }
 });
 
 export default Example;
