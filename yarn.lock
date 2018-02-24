@@ -145,6 +145,14 @@ aphrodite@^0.5.0:
     asap "^2.0.3"
     inline-style-prefixer "^2.0.0"
 
+aphrodite@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/aphrodite/-/aphrodite-1.2.5.tgz#8358c36c80bb03aee9b97165aaa70186225b4983"
+  dependencies:
+    asap "^2.0.3"
+    inline-style-prefixer "^3.0.1"
+    string-hash "^1.1.3"
+
 append-transform@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/append-transform/-/append-transform-0.4.0.tgz#d76ebf8ca94d276e247a36bad44a4b74ab611991"
@@ -1024,7 +1032,7 @@ boom@2.x.x:
   dependencies:
     hoek "2.x.x"
 
-bowser@^1.0.0:
+bowser@^1.0.0, bowser@^1.7.3:
   version "1.9.2"
   resolved "https://registry.yarnpkg.com/bowser/-/bowser-1.9.2.tgz#d66fc868ca5f4ba895bee1363c343fe7b37d3394"
 
@@ -1607,6 +1615,12 @@ crypto-browserify@^3.11.0:
 css-color-names@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
+
+css-in-js-utils@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/css-in-js-utils/-/css-in-js-utils-2.0.0.tgz#5af1dd70f4b06b331f48d22a3d86e0786c0b9435"
+  dependencies:
+    hyphenate-style-name "^1.0.2"
 
 css-loader@0.28.4:
   version "0.28.4"
@@ -2973,7 +2987,7 @@ https-browserify@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-0.0.1.tgz#3f91365cabe60b77ed0ebba24b454e3e09d95a82"
 
-hyphenate-style-name@^1.0.1:
+hyphenate-style-name@^1.0.1, hyphenate-style-name@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.0.2.tgz#31160a36930adaf1fc04c6074f7eb41465d4ec4b"
 
@@ -3046,6 +3060,13 @@ inline-style-prefixer@^2.0.0:
   dependencies:
     bowser "^1.0.0"
     hyphenate-style-name "^1.0.1"
+
+inline-style-prefixer@^3.0.1:
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/inline-style-prefixer/-/inline-style-prefixer-3.0.8.tgz#8551b8e5b4d573244e66a34b04f7d32076a2b534"
+  dependencies:
+    bowser "^1.7.3"
+    css-in-js-utils "^2.0.0"
 
 inquirer@3.1.1:
   version "3.1.1"
@@ -5750,6 +5771,10 @@ stream-http@^2.3.1:
 strict-uri-encode@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
+
+string-hash@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/string-hash/-/string-hash-1.1.3.tgz#e8aafc0ac1855b4666929ed7dd1275df5d6c811b"
 
 string-length@^1.0.1:
   version "1.0.1"
