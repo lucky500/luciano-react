@@ -46,6 +46,13 @@
   margin-right: 0;
 }
 
+.fa-twitter,
+.fa-github,
+.fa-linkedin-in {
+  color: #ccc;
+  margin-right: 8px;
+}
+
 @media (min-width: 768px) {
   .row, .left-col, .right-col {
     height: 100vh;

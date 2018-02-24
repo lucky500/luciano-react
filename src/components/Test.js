@@ -65,17 +65,22 @@ class Example extends Component {
 
     const gallery = images.filter(i => i.src).map((obj, i) => {
       return (
-        <a
-          href={obj.src}
-          className={css(classes.thumbnail, classes[obj.orientation])}
-          key={i}
-          onClick={(e) => this.openLightbox(i, e)}
-        >
+        
           <Card className={css(classes.card)}>
             <CardBody className={css(classes.cardBody)}>
-              <CardTitle className={css(classes.cardTitle)}>{obj.title}</CardTitle>
+              <CardTitle className={css(classes.cardTitle)}>
+                {obj.title}
+                <a href={obj.urlCode}>
+                  <i className={`fas fa-code ${css(classes.links)}`}></i>
+                </a>
+                { obj.urlDemo ?
+                  <a href={obj.urlDemo}>
+                    <i className={`fab fa-chrome ${css(classes.links)}`}></i>
+                  </a> : null
+                }
+              </CardTitle>
               <CardText>{obj.description}</CardText>
-              <CardText>
+              <CardText className={css(classes.cardText)}>
                 { obj.tech.map(icon => {
                  return <span>
                     <i className={`${icon} ${css(classes.iconImage)}`}></i>
@@ -84,9 +89,18 @@ class Example extends Component {
                  
               </CardText>
             </CardBody>
-            <CardImg src={obj.thumbnail} className={css(classes.source)} />
+            <div className={css(classes.rightColumn)}>
+              <a
+                href={obj.src}
+                className={css(classes.thumbnail, classes[obj.orientation])}
+                key={i}
+                onClick={(e) => this.openLightbox(i, e)}
+              >
+                <CardImg src={obj.thumbnail} className={css(classes.source)} />
+              </a>
+            </div>
           </Card>
-        </a>
+        
       )
     });
     return (
@@ -171,6 +185,9 @@ const classes = StyleSheet.create({
     maxHeight: '100px',
     width: 'auto',
   },
+  rightColumn: {
+    flexGrow: 1
+  },
 
   //bootstrap overrides
   card: {
@@ -181,15 +198,27 @@ const classes = StyleSheet.create({
     padding: '.5rem',
     fontSize: '.9rem',
     textAlign: 'left',
-    flexGrow: 2,
+    flexGrow: 3,
+  },
+  rightColumn: {
+    flexGrow: 0
   },
   cardTitle: {
-    fontSize: '.9rem'
+    fontSize: '.9rem',
+    fontVariant: 'small-caps',
+    fontWeight: 'bold'
+  },
+  cardText: {
+    marginBottom: 0
   },
   iconImage: {
     fontSize: '1rem',
-    color:  '#ff4757',
+    color:  '#34495e',
     marginRight: 5
+  },
+  links: {
+    color: '#2980b9',
+    marginLeft: 6
   }
 });
 
