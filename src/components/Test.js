@@ -81,12 +81,13 @@ class Example extends Component {
               </CardTitle>
               <CardText>{obj.description}</CardText>
               <CardText className={css(classes.cardText)}>
-                { obj.tech.map(icon => {
-                 return <span>
-                    <i className={`${icon} ${css(classes.iconImage)}`}></i>
-                  </span>
-                })}
-                 
+                <div className={css(classes.iconGroup)}>
+                  { obj.tech.map(icon => {
+                  return <span>
+                      <i className={`${icon} ${css(classes.iconImage)}`}></i>
+                    </span>
+                  })}
+                </div>
               </CardText>
             </CardBody>
             <div className={css(classes.rightColumn)}>
@@ -112,10 +113,9 @@ class Example extends Component {
 
 
   render() {
-    {console.log(this.props)}
     return (
       <Col xs={12} md={6} lg={6} className="right-col">
-        <h3>Projects</h3>
+        <h3 className={css(classes.h3)}>Projects</h3>
         {this.renderGallery()}
         <Lightbox
           currentImage={this.state.currentImage}
@@ -219,6 +219,12 @@ const classes = StyleSheet.create({
   links: {
     color: '#2980b9',
     marginLeft: 6
+  },
+  h3: {
+    fontVariant: 'small-caps',
+  },
+  iconGroup: {
+    textAlign: 'center',
   }
 });
 

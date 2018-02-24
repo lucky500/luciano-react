@@ -3,7 +3,7 @@ import { Col } from 'reactstrap';
 
 
 export default props => (
-	<Col xs={12} className="left-col">
+	<Col xs={12} md={6} lg={6} className="left-col">
 		<div>
 			<h3>Luciano Oliveira</h3>
 			<h4>Front End Developer</h4>

@@ -7,9 +7,8 @@
 
 .left-col {
   background: url('./img/winterland1.jpg') no-repeat center center fixed;
-  background: #3b3598;
+  background: #34495e;
   background-size: cover;
-  height: 100vh;
 }
 
 .left-col h3 {
