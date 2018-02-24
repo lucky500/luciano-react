@@ -3,8 +3,7 @@ import { Row } from 'reactstrap';
 import images from './data/data1.json';
 
 import Contact from './components/Contact';
-import Test from './components/Test';
-
+import Project from './components/Projects';
 import './App.css';
 
 class App extends Component {
@@ -13,7 +12,7 @@ class App extends Component {
       <div className="App">
         <Row>
           <Contact />
-          <Test images={images.projectLinks} />
+          <Project images={images.projectLinks} />
         </Row>
       </div>
     );

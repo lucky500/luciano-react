@@ -9,6 +9,7 @@
   background: url('./img/winterland1.jpg') no-repeat center center fixed;
   background: #34495e;
   background-size: cover;
+  height: 100vh;
 }
 
 .left-col h3 {
@@ -52,6 +53,7 @@
   color: #ccc;
   margin-right: 8px;
 }
+
 
 @media (min-width: 768px) {
   .row, .left-col, .right-col {
