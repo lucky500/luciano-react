@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Row } from 'reactstrap';
-import images from './data/data1.json';
+import images from './data/data.json';
 
 import Contact from './components/Contact';
 import Project from './components/Projects';

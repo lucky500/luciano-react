@@ -21,60 +21,121 @@
 	],
 	"projectLinks": [
 		{
-			"title": "ToDo List with React.js (ReactJS, MongoDB, Express)",
+			"title": "Search Products",
 			"eventKey": 1,
+			"description": "During my time at Cirrus10, I built an internal search UI using React, Bootstrap and less. The app works in conjunction with their API, but I built a Node API for testing purposes. I also created containers using Docker",
+			"tech": [ 
+				"fab fa-react",
+				"fab fa-node-js",
+				"icon-mongodb",
+				"fab fa-html5",
+				"fab fa-css3",
+				"fab fa-docker",
+				"icon-bootstrap"
+				
+			],
+            "src": "https://i.imgur.com/beIZZSn.png",
+            "thumbnail": "https://i.imgur.com/gKxbKp2.png",
+			"urlCode": "https://github.com/lucky500/searchReact",
+			"urlDemo": "https://search-frontend.herokuapp.com/"
+		},
+		{
+			"title": "ToDo List with React.js",
+			"eventKey": 2,
 			"description": "Fully functional CRUD ToDo App with React.js on the Front End and MongoDB, and Express on the Back End",
-			"image": "http://i.imgur.com/cWUNj9Q.png",
+			"tech": [ 
+				"fab fa-react",
+				"fab fa-node-js",
+				"icon-mongodb",
+				"fab fa-html5",
+				"fab fa-css3",
+				"icon-bootstrap"
+				
+			],
+            "src": "http://i.imgur.com/cWUNj9Q.png",
+            "thumbnail": "https://i.imgur.com/TzYCQ7U.png?1",
 			"urlCode": "https://github.com/lucky500/todoWithReactJS",
 			"urlDemo": ""
 		},
 		{
-			"title": "IMDB Clone (Ruby on Rails, Bootstrap, PostGres, and Devise for Auth)",
-			"eventKey": 2,
+			"title": "IMDB Clone",
+			"eventKey": 3,
 			"description": "Rails CRUD application, it uses Devise for authentication, Faker for seeding, and paperclip for images. It uses a jQuery plugin called jquery.raty to transform a number into stars rating. It uses PostGreSQL for DB",
-			"image": "https://i.imgur.com/5dqMWwa.png",
+			"tech": [ 
+				"icon-ruby-on-rails",
+				"icon-postgres",
+				"icon-jquery",
+				"fab fa-html5",
+				"fab fa-css3",
+				"icon-bootstrap",
+				"icon-heroku"
+			],
+            "src": "https://i.imgur.com/5dqMWwa.png",
+            "thumbnail": "https://i.imgur.com/HgW37CJ.png",
 			"urlCode": "https://github.com/lucky500/imdb_rails",
 			"urlDemo": "https://imdb-rails-app.herokuapp.com/"
 		},
 		{
-			"title": "BookFinder (React, React-Bootstrap, Axios, Heroku)",
-			"eventKey": 3,
+			"title": "BookFinder",
+			"eventKey": 4,
 			"description": "Simple app to find books. Using React, React-Bootstrap, Axios, Google Books API, and deployed to Heroku",
-			"image": "http://i.imgur.com/WQdo6Ie.png",
+			"tech": [ 
+				"fab fa-react",
+				"fab fa-html5",
+				"fab fa-css3",
+				"icon-bootstrap",
+				"icon-heroku"
+			],
+            "src": "http://i.imgur.com/WQdo6Ie.png",
+            "thumbnail": "https://i.imgur.com/guST7bR.png",
 			"urlCode": "https://github.com/lucky500/bookFinder",
 			"urlDemo": ""
 		},
 		{
-			"title": "Jule's Pizza Place (Angular, Angular Material, Firebase)",
-			"eventKey": 4,
-			"description": "Built with Angular and Angular Material in the front end, and using Firebase in the backend. Didn't work much on the design, since I was just experimenting with Firebase, so I am working on the re-design of this one.",
-			"image": "http://i.imgur.com/Yg054S5.png",
+			"title": "Galactic Age Converter",
+			"eventKey": 5,
+			"description": "Galactic age converter, allows you to enter filters and get your age in different planets. used ES6, jQuery, Materialize, Moment.js, Gulp, Browserify, bower, Karma and Jasmine for testing",
+			"tech": [ 
+				"fab fa-js",
+				"icon-jquery",
+				"fab fa-html5",
+				"fab fa-css3",
+				"fab fa-gulp",
+				"fab fa-sass"
+			],
+            "src": "https://i.imgur.com/nNX0jhG.png",
+            "thumbnail": "https://i.imgur.com/tPgVFFt.png",
+			"urlCode": "https://github.com/lucky500/galactic-age-calculator",
+			"urlDemo": "https://lucky500.github.io/galactic-age-calculator/"
+		},
+		{
+			"title": "Jule's Pizza Place",
+			"eventKey": 6,
+			"description": "Built with Angular and Angular Material in the front end, and using Firebase in the backend.",
+			"tech": [ 
+				"fab fa-angular",
+				"fab fa-html5",
+				"fab fa-css3",
+				"icon-firebase"
+			],
+            "src": "http://i.imgur.com/Yg054S5.png",
+            "thumbnail": "https://i.imgur.com/FlP9pym.png",
 			"urlCode": "https://github.com/lucky500/julespizza",
 			"urlDemo": "https://lucky500.github.io/julespizza/"
 		},
 		{
-			"title": "The Vinyl Vault (HTML, CSS, JavScript)",
-			"eventKey": 5,
-			"description": "Simple JavaScript cart application.",
-			"image": "http://i.imgur.com/yrtxUrV.png",
+			"title": "The Vinyl Vault",
+			"eventKey": 7,
+			"description": "Simple JavaScript cart application., using HTML, CSS and JavaScript",
+			"tech": [ 
+				"fab fa-js",
+				"fab fa-html5",
+				"fab fa-css3"
+			],
+            "src": "http://i.imgur.com/yrtxUrV.png",
+            "thumbnail": "https://i.imgur.com/T5YmAOe.png",
 			"urlCode": "https://github.com/lucky500/vinyl-vault",
 			"urlDemo": "http://lucky500.github.io/vinyl-vault/"
-		},
-		{
-			"title": "Mavrck ROI Calculator (HTML, CSS, Angular Material)",
-			"eventKey": 6,
-			"description": "Group project at startup institute, ROI calculator for our partner company, I was mainly responsible for the UI, HTML, CSS and little Javascript",
-			"image": "http://i.imgur.com/3SMjPGh.png",
-			"urlCode": "https://github.com/lucky500/ROICalculator",
-			"urlDemo": ""
-		},
-		{
-			"title": "Student Directory (HTML, CSS, Angular 1.5)",
-			"eventKey": 7,
-			"description": "Simple app built with Angular 1.5. Find students by name, company or Job Title, and also able to open detail view. working on cleaning up UI and built upon the app.",
-			"image": "http://i.imgur.com/GF0is9z.png",
-			"urlCode": "https://github.com/lucky500/studentDirectory",
-			"urlDemo": "https://lucky500.github.io/studentDirectory/#/list"
 		}
 	]
 }
