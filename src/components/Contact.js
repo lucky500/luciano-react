@@ -7,14 +7,17 @@ export default props => (
 		<div>
 			<h3>Luciano Oliveira</h3>
 			<h4>Front End Developer</h4>
-			<a href="https://twitter.com/luciano_wor">
+			<a href="https://twitter.com/luciano_wor" target="_blank">
 				<i className="fab fa-twitter fa-lg"></i>
 			</a>
-			<a href="https://github.com/lucky500">
-			<i className="fab fa-github fa-lg"></i>
+			<a href="https://github.com/lucky500" target="_blank">
+				<i className="fab fa-github fa-lg"></i>
 			</a>
-			<a href="https://www.linkedin.com/in/luciano-oliveira-484a8017/">
-			<i className="fab fa-linkedin-in fa-lg"></i>
+			<a href="https://www.linkedin.com/in/luciano-oliveira-484a8017/" target="_blank">
+				<i className="fab fa-linkedin-in fa-lg"></i>
+			</a>
+			<a href="https://s3.amazonaws.com/resume-luciano/Luciano_Oliveira.pdf" target="_blank">
+				<i className="far fa-file-alt fa-lg"></i>
 			</a>
 		</div>
 	</Col>

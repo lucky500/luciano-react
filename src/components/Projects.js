@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardTitle, CardSubtitle, CardText, Col, CardBody } from 'reactstrap';
+import { Card, CardImg, CardTitle, CardText, Col, CardBody } from 'reactstrap';
 import { css, StyleSheet } from 'aphrodite/no-important';
 import Lightbox from 'react-images';
 
@@ -66,7 +66,7 @@ class Example extends Component {
     const gallery = images.filter(i => i.src).map((obj, i) => {
       return (
         
-          <Card className={css(classes.card)}>
+          <Card className={css(classes.card)} key={obj.eventKey} >
             <CardBody className={css(classes.cardBody)}>
               <CardTitle className={css(classes.cardTitle)}>
                 {obj.title}
@@ -81,13 +81,13 @@ class Example extends Component {
               </CardTitle>
               <CardText>{obj.description}</CardText>
               <CardText className={css(classes.cardText)}>
-                <div className={css(classes.iconGroup)}>
-                  { obj.tech.map(icon => {
-                  return <span>
+                <span className={css(classes.iconGroup)}>
+                  { obj.tech.map((icon, index) => {
+                  return <span key={index} >
                       <i className={`${icon} ${css(classes.iconImage)}`}></i>
                     </span>
                   })}
-                </div>
+                </span>
               </CardText>
             </CardBody>
             <div className={css(classes.rightColumn)}>
@@ -184,9 +184,6 @@ const classes = StyleSheet.create({
     maxWidth: '100px',
     maxHeight: '100px',
     width: 'auto',
-  },
-  rightColumn: {
-    flexGrow: 1
   },
 
   //bootstrap overrides
